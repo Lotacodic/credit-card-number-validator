@@ -1,10 +1,10 @@
 ### Credit_Card_Number_Validator
 
-- This repository contains codes for Credit Card Number Validation with JavaScript.
+This repository contains codes for Credit Card Number Validation with JavaScript.
 
 #### Usage
 
-- To use this project `clone` with this command below or any preferred method, cd into the `credit-card-number-validator` folder
+To use this project `clone` with this command below or any preferred method, cd into the `credit-card-number-validator` folder
 
 ```
 git clone https://github.com/lotacodic/credit-card-number-validator.git
@@ -17,10 +17,6 @@ git clone https://github.com/lotacodic/credit-card-number-validator.git
 - run this command `node validate.js` on the terminal of your Vs Code.
 - Enter `ctrl c` so you can terminate the process in other to rerun code
 
-#### Alternative
-
-- You can as well run this code on replit: <a href=" "> Replit Link</a>
-
 #### Credit Card Types
 
 - Below are the types of Credit Card that can be validated:
@@ -31,10 +27,10 @@ git clone https://github.com/lotacodic/credit-card-number-validator.git
 
 #### Features of Mastercard Number
 
-<h5>Features of the mastercard number and the explaination of Regular Expression used in line 2 of the<a href="/credit-card-number-validator/validate.js">validate.js</a> file:</h5>
+Features of the mastercard number and the explaination of Regular Expression used in line 2 of the<a href="/credit-card-number-validator/validate.js"> validate.js </a> file:</h5>
 <ol>
 <li>16 Digits(only) long</li>
-<p>If you look closely on the line 2 of <a href="/credit-card-number-validator/validate.js">validate.js</a> you will notice that we've limiter(i.e {}) that limited the masterCardNumber to 16 digits.<br/>
+<p>If you look closely on the line 2 of <a href="/credit-card-number-validator/validate.js"> validate.j </a> you will notice that we've limiter(i.e {}) that limited the masterCardNumber to 16 digits.<br/>
 Also the starting(^) and ending($) patterns help to keep the card number to range given in the code.This actually satifies the fact that all mastercard number has 16 digits 
 </p>
 
